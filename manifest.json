@@ -1,0 +1,10 @@
+{
+  "name": "DNSLookup",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Resolves a hostname provided",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["dns"]
+}

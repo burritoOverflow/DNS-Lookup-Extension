@@ -1,0 +1,78 @@
+:root {
+  --background-color: #d1cbcb;
+  --dark-blue: #0056b3;
+  --light-blue: #007bff;
+}
+
+body {
+  align-items: center;
+  background-color: black;
+  height: 600px;
+  justify-content: center;
+  width: 800px;
+}
+
+#header {
+  color: var(--background-color);
+  text-align: center;
+}
+
+#search-container {
+  text-align: center;
+}
+
+#search-input {
+  background-color: rgb(65, 61, 61);
+  border-radius: 4px;
+  border: 2px solid #ddd;
+  color: var(--light-blue);
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 1.5;
+  margin-bottom: 2em;
+  margin-right: -4px;
+  padding: 10px;
+  padding: 1em;
+  text-align: center;
+  width: 55%;
+}
+
+#search-input::placeholder {
+  color: var(--dark-blue);
+  background-color: var(--background-color);
+}
+
+#search-button {
+  background-color: var(--light-blue);
+  border-radius: 4px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  margin-top: 10px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+#search-button:hover {
+  background-color: var(--dark-blue);
+}
+
+#resolved-list > li {
+  border: 1px solid var(--light-blue);
+  color: var(--background-color);
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 0 auto;
+  padding: 0.76em;
+  transition: all 500ms;
+  width: 50%;
+}
+
+#resolved-list > li:hover {
+  background-color: var(--light-blue);
+  border: 1px solid var(--background-color);
+  color: black;
+  transform: translate(10px, -12px);
+}
